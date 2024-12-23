@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import commander from "commander";
-import {glob} from "glob";
+import {glob} from "tinyglobby";
 import {exists, mkdir, readdir, readFile, stat, writeFile} from "mz/fs";
 import {dirname, join, relative} from "path";
 
